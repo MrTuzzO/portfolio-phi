@@ -1,0 +1,30 @@
+:root{
+    --primary: rgb(14, 222, 222);
+}
+body{
+    background: #000;
+    color: #fff;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.clr-main{
+    color: var(--primary);
+}
+.bg-main{
+    background: var(--primary);
+    color: #282727;
+}
+.logo img{
+    width: 60px;
+}
+#banner{
+    height: 85vh;
+}
+.banner_right img{
+    filter: drop-shadow(-10px 20px 20px #fff);
+
+}
